@@ -1,7 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="091b976b-69d9-40d3-8141-3c340befa994" name="Default" comment="" />
+    <list default="true" id="091b976b-69d9-40d3-8141-3c340befa994" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Bracket-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Matchup-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Region-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/group-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/bracket.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/matchups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/teams.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/bracket/Bracket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/bracket/bracket-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/final-four/final-four.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/group-checkbox/GroupCheckbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/group-checkbox/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/group/Group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/group/group.styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/matchup-node/MatchupNode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/matchup/matchup-styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/matchup/matchup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/region/Region.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/region/Stylesheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/regional/regional.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/regional/stylesheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/Groups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/Regions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/Rounds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/data-models.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/pairings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/regionSequence.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/bracketApp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/createMatchups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/matchups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/reducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/selections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/tallyVotes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/votes.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ARIADOMPropertyConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/AutoFocusUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/BeforeInputEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSPropertyOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CallbackQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ChangeEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMChildrenOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMLazyTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMNamespaces.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMPropertyOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/Danger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DefaultEventPluginOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EnterLeaveEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventConstants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginHub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginRegistry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPropagators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/FallbackCompositionState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/HTMLDOMPropertyConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/KeyEscapeUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/LinkedValueUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/PluginModuleType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/PooledClass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactBrowserEventEmitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildFiber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildReconciler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentBrowserEnvironment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentEnvironment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentTreeTestUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCompositeComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCoroutine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOM.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentFlags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMContainerInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMEmptyComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFeatureFlags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFiber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMIDOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInvalidARIAHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMNullInputValuePropHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMOption.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMSelect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMServer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMServerUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextarea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTreeTraversal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUnknownPropertyHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDebugTool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDefaultInjection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactElementSymbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEmptyComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactErrorUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventEmitterMixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventListener.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFeatureFlags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberBeginWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCommitWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCompleteWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberReconciler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberRoot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberScheduler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostOperationHistoryHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInjection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInputSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstrumentation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInvalidSetStateWarningHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMarkupChecksum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMount.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChildUpdateTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactNodeTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactOwner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPerf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPriorityLevel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypeLocationNames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypeLocations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPropTypesSecret.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconcileTransaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconciler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactRef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReifiedYield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerBatchingStrategy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerRendering.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerRenderingTransaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactServerUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactShallowRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSimpleEmptyComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSyntheticEventType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestReconcileTransaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTypeOfWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactVersion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderSyntheticEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderTouchHistoryStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SVGDOMPropertyConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SelectEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SimpleEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticAnimationEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticClipboardEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticCompositionEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticDragEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticFocusEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticInputEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticKeyboardEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticMouseEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticTouchEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticTransitionEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticUIEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticWheelEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/TapEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/TouchHistoryMath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/Transaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ViewportMetrics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/accumulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/accumulateInto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/adler32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/canDefineProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/checkReactTypeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/createMicrosoftUnsafeLocalFunction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/dangerousStyleValue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/escapeTextContentForBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/findDOMNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/flattenChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/forEachAccumulated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventCharCode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventKey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventModifierState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventTarget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getHostComponentFromComposite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getIteratorFn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getNodeForCharacterOffset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getTestDocument.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getTextContentAccessor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getVendorPrefixedEventName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/inputValueTracking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/instantiateReactComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/isEventSupported.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/isTextInputElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/lowPriorityWarning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/quoteAttributeValueForBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/reactComponentExpect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/reactProdInvariant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/renderSubtreeIntoContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/setInnerHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/setTextContent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/shouldUpdateReactComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/traverseAllChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/validateDOMNesting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/KeyEscapeUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/LinkedStateMixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/React.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependencies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependenciesUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactBaseClasses.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeDevtool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHookUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentWithPureRenderMixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwnerUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementSymbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocationNames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypesSecret.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactStateSetters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionChildMapping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionEvents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/canDefineProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/checkReactTypeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/createClass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/flattenChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/getIteratorFn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugID.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/getNextDebugIDUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/lowPriorityWarning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/onlyChild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/reactProdInvariant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/shallowCompare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/sliceChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/truffle-config.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/index.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/server.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/test-utils.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/test-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/package.json" afterPath="$PROJECT_DIR$/node_modules/react/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/redux-logger/package.json" afterPath="$PROJECT_DIR$/node_modules/redux-logger/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/home/Home.js" afterPath="$PROJECT_DIR$/src/layouts/home/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store.js" afterPath="$PROJECT_DIR$/src/store.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +298,144 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="group-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/group-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#366#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bracket.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/bracket/Bracket.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Groups.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Groups.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Region.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/region/Region.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matchup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/matchup/matchup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/layouts/home/Home.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/region/Region.js" />
+        <option value="$PROJECT_DIR$/src/components/bracket/Bracket.js" />
+        <option value="$PROJECT_DIR$/src/store.js" />
+        <option value="$PROJECT_DIR$/src/components/matchup/matchup.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -70,9 +488,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/reducers" />
+      <recent name="$PROJECT_DIR$/src/api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -160,12 +587,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504813398658</updated>
-      <workItem from="1504813399898" duration="2276000" />
+      <workItem from="1504813399898" duration="7113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2276000" />
+    <option name="totallyTimeSpent" value="7113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -197,5 +624,234 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/src/app/data/teams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <marker date="1504835076000" expanded="true" signature="0:3271" ph="{&quot;name&quot;: &quot;react-auth-box&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="1504:1783" ph="{&quot;react&quot;: &quot;^15.4.2&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="1798:1926" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="1938:2759" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="1967:2000" ph="[...]" />
+            <marker date="1504835076000" expanded="true" signature="2020:2065" ph="[...]" />
+            <marker date="1504835076000" expanded="true" signature="2084:2188" ph="[...]" />
+            <marker date="1504835076000" expanded="true" signature="2273:2482" ph="{&quot;^.+\.(js|jsx)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="2515:2571" ph="[...]" />
+            <marker date="1504835076000" expanded="true" signature="2597:2647" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="2677:2755" ph="[...]" />
+            <marker date="1504835076000" expanded="true" signature="2772:2818" ph="{...}" />
+            <marker date="1504835076000" expanded="true" signature="2789:2814" ph="[...]" />
+            <marker date="1504835076000" expanded="true" signature="2838:2870" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="2941:2965" ph="{&quot;test&quot;: &quot;test&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="2983:3070" ph="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1504835076000" expanded="true" signature="3136:3203" ph="{&quot;url&quot;: &quot;https://github.com/danawhite/brackets-app/issues&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/actions/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/bracket.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/reducers/matchups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/reducers/createMatchups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/reducers/bracketApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/reducers/votes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/bracketApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/group-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/match.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1198">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2128">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#366#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Groups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/bracket/Bracket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/region/Region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/matchup/matchup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

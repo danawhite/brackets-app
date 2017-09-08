@@ -1,0 +1,111 @@
+{
+  "Bracket": {
+    "East": {
+      "sixtyFour": {
+        "m1": [1, 16],
+        "m2": [8.9],
+        "m3": [5, 12],
+        "m4": [4, 13],
+        "m5": [6, 11],
+        "m6": [3, 14],
+        "m7": [7, 10],
+        "m8": [2, 15]
+      },
+      "thirtyTwo": {
+        "m1": [],
+        "m2": [],
+        "m3": [],
+        "m4": []
+      },
+      "sweetSixteen": {
+        "m1": [],
+        "m2": []
+      },
+      "eliteEight": {
+        "m1": []
+      }
+    },
+    "West": {
+        "sixtyFour": {
+          "matchup01": [1, 16],
+          "matchup02": [8.9],
+          "matchup03": [5, 12],
+          "matchup04": [4, 13],
+          "matchup05": [6, 11],
+          "matchup06": [3, 14],
+          "matchup07": [7, 10],
+          "matchup08": [2, 15]
+        },
+        "thirtyTwo": {
+          "matchup01": [],
+          "matchup02": [],
+          "matchup03": [],
+          "matchup04": []
+        },
+        "sweetSixteen": {
+          "matchup01": [],
+          "matchup02": []
+        },
+        "eliteEight": {
+          "matchup01": []
+        }
+      },
+    },
+    "Midwest": {
+      "sixtyFour": {
+        "matchup01": [1, 16],
+        "matchup02": [8.9],
+        "matchup03": [5, 12],
+        "matchup04": [4, 13],
+        "matchup05": [6, 11],
+        "matchup06": [3, 14],
+        "matchup07": [7, 10],
+        "matchup08": [2, 15]
+      },
+      "thirtyTwo": {
+        "matchup01": [],
+        "matchup02": [],
+        "matchup03": [],
+        "matchup04": []
+      },
+      "sweetSixteen": {
+        "matchup01": [],
+        "matchup02": []
+      },
+      "eliteEight": {
+        "matchup01": []
+      }
+    },
+    "South": {
+      "sixtyFour": {
+        "matchup01": [1, 16],
+        "matchup02": [8.9],
+        "matchup03": [5, 12],
+        "matchup04": [4, 13],
+        "matchup05": [6, 11],
+        "matchup06": [3, 14],
+        "matchup07": [7, 10],
+        "matchup08": [2, 15]
+      },
+      "thirtyTwo": {
+        "matchup01": [],
+        "matchup02": [],
+        "matchup03": [],
+        "matchup04": []
+      },
+      "sweetSixteen": {
+        "matchup01": [],
+        "matchup02": []
+      },
+      "eliteEight": {
+        "matchup01": []
+      }
+    },
+    "finalFour": {
+      "matchup01": [],
+      "matchup02": []
+    },
+    "championship": [],
+    "champion": []
+  }
+}

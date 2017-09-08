@@ -1,0 +1,18 @@
+
+.container {
+    backgroundColor: #fafafa;
+    display: block;
+    border: 1px solid green;
+    width: 180px;
+    height: 25px;
+    verticalAlign: center;
+    cursor: pointer;
+}
+
+.container-leave {
+    width: 200px;
+}
+
+.container-leave.container-leave-active {
+    opacity: 0;
+}

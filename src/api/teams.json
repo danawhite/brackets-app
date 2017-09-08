@@ -1,0 +1,26 @@
+[
+  {
+    "name": "N.W.A.",
+    "seed": 1,
+    "region": "Wast",
+    "votes": 0
+  },
+  {
+    "name": "Maryland",
+    "seed": 1,
+    "region": "Midwest",
+    "votes": 0
+  },
+  {
+    "name": "Kentucky",
+    "seed": 3,
+    "region": "South",
+    "votes": 0
+  },
+  {
+    "name": "Kentucky",
+    "seed": 4,
+    "region": "West",
+    "votes": 0
+  }
+]
