@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux'
+
 import Group from '../group/Group';
 
-export default class Matchup extends React.Component {
+class Matchup extends React.Component {
     constructor(props) {
         super(props);
         console.log('Matchup', props);
@@ -81,6 +84,16 @@ Matchup.propTypes = {
 };
 
 Matchup.defaultProps = {};
+
+const mapStateToProps = ({});
+
+const mapDispatchToProps = dispatch => bindActionCreators({}, dispatch);
+
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Matchup);
 
 
 
